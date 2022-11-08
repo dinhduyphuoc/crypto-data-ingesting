@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__
+/.git
+/.vscode
+venv
+env
+.env
+.flaskenv
+config.ini

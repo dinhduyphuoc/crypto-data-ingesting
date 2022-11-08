@@ -1,0 +1,13 @@
+flask
+gunicorn
+requests
+numpy
+pydantic
+configparser
+jsonschema
+google-cloud-scheduler
+google-cloud-storage
+google-cloud-pubsub
+pytz
+pandas
+redis

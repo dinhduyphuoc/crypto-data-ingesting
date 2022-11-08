@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "pair": {
+            "type": "string"
+        },
+        "start_date": {
+            "type": "integer"
+        },
+        "end_date": {
+            "type": "integer"
+        },
+        "interval": {
+            "type": "string"
+        },
+        "open": {
+            "type": "number"
+        },
+        "high": {
+            "type": "number"
+        },
+        "low": {
+            "type": "number"
+        },
+        "close": {
+            "type": "number"
+        },
+        "volume": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "pair",
+        "start_date",
+        "end_date",
+        "interval",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume"
+    ]
+}
